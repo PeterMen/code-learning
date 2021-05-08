@@ -6,13 +6,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class AService {
 
-    @Autowired
-    private MongoTemplate mongoTemplate;
-
-    @Autowired
-    private ARepository aRepository;
-
-    public String findUserName(){
-        return aRepository.findById("ddd").get().getUserName();
-    }
+//    @Autowired
+//    private MongoTemplate mongoTemplate;
+//
+//    @Autowired
+//    private ARepository aRepository;
+//
+//    public String findUserName(){
+//        return aRepository.findById("ddd").get().getUserName();
+//    }
 }

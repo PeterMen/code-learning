@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 public class FutureTaskTest {
 
     public static void main(String[] args) {
-        ExecutorService ex = Executors.newFixedThreadPool(1);
+        ExecutorService ex = new ThreadPoolExecutor(1,2,2,TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(2));
 
         ex.submit(new FutureTask<String>(new Callable<String>() {
             @Override
