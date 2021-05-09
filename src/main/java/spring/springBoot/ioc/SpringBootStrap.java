@@ -1,4 +1,4 @@
-package spring.springBoot;
+package spring.springBoot.ioc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
