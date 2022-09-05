@@ -1,4 +1,4 @@
-package spring.proxy;
+package spring.cglibproxy;
 
 /**
  * 被增强的对象

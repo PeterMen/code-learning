@@ -1,4 +1,4 @@
-package spring.proxy;
+package spring.cglibproxy;
 
 public class CGlibTest {
 

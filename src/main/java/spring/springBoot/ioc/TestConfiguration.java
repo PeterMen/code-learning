@@ -2,7 +2,7 @@ package spring.springBoot.ioc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring.proxy.UserLogin;
+import spring.cglibproxy.UserLogin;
 
 @Configuration
 public class TestConfiguration {

@@ -1,4 +1,4 @@
-package spring.proxy;
+package spring.cglibproxy;
 
 import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
@@ -14,6 +14,7 @@ public class CGlibProxyFactory {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(cls);
         enhancer.setCallback(callback);
+
         return enhancer.create();
     }
 }
